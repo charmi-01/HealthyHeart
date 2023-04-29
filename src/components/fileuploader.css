@@ -1,0 +1,51 @@
+.selectButton{
+    display: block;
+    width: 40%;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.uploadBox{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    width: 50%;
+    box-shadow: 9px 7px 8px 3px rgba(0,0,0,0.68);
+-webkit-box-shadow: 9px 7px 8px 3px rgba(0,0,0,0.68);
+-moz-box-shadow: 9px 7px 8px 3px rgba(0,0,0,0.68);
+}
+
+.imgInput{
+    width: 100%;
+    text-align: center;
+}
+
+.imgInput input{
+    display: none;
+}
+
+.imgInput label{
+    cursor:pointer;
+    font-size: 25px;
+}
+
+.filename{
+    font-size: 15px;
+}
+
+.uploadbutton{
+    background: #50e65d;
+	color: white;
+	border-style: outset;
+	border-color: #50e65d;
+    width: 100%;
+	font-weight: 500;
+    font-size: 30px;
+	text-shadow: none;
+    border-radius: 10px;
+    padding: 5px;
+}

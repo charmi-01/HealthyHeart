@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import homesvg from './home.gif'
 import './App.css';
+import FileUploader from './components/Fileuploader';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'>
+        <h3 className="animate-charcter"><span className='text_green'>H</span>ealthy <span className='text_green'>H</span>eart</h3>
+      </div>
+      <div className='container'>
+        <div className='left'>
+          <img src={homesvg} alt='' />
+        </div>
+        <div className='right'>
+          <FileUploader/>
+        </div>
+      </div>
     </div>
   );
 }
