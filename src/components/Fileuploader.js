@@ -49,7 +49,6 @@ function Fileuploader() {
       .catch(error => {
         setIsLoading(false)
         console.log(error);
-        setShowResult(true);
         setResultData("false");
       });
   };
